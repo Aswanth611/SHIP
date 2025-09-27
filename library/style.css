@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(124, 138, 141);
+    height: 50px;
+    position: relative;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+.name{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 0;
+}
+.hero{
+    text-align: center;
+    background-color: rgb(102, 116, 81);
+    color: white;
+}
+.booklist{
+    display: flex;
+    justify-content: center;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero p{
+    font-size: 20px;
+}
+.books h2{
+    display: flex;
+    justify-content: center;
+}
+.booklist{
+    display: flex;
+    justify-content: center;
+}
+.book-item{
+    padding: 30px;
+    margin-right: 70px;
+    background: rgb(143, 116, 116);
+    border-radius: 10px;
+}
