@@ -1,9 +1,15 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os  # <-- add this
+
+# Get folder where app.py is located
+BASE_DIR = os.path.dirname(__file__)
+MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")  # <-- load model from same folder
 
 # Load trained model
-model = pickle.load(open("model.pkl", "rb"))
+with open(MODEL_PATH, "rb") as f:
+    model = pickle.load(f)
 
 st.title("💧 ML-Based Water Intake Predictor")
 
