@@ -31,8 +31,8 @@ setInterval(function () {
     var dinoBottom = parseInt(dino.style.bottom);
 
     if (cactusLeft < 90 && cactusLeft > 50 && dinoBottom == 0) {
-        msg.innerHTML = "GAME OVER";
         gameOver = true;
     }
 
 }, 20);
+
